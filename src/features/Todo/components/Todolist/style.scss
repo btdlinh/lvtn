@@ -1,0 +1,14 @@
+.todo-list{
+    list-style-type: none;
+
+    & > li {
+        cursor: pointer;
+    }
+  
+    & > li.old{
+        color: rgb(157, 16, 185);
+        font-style: italic;
+        text-decoration: line-through ;
+       
+    }
+}

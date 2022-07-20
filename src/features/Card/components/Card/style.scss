@@ -1,0 +1,13 @@
+// card
+.card{
+    &_img{
+        & > img{
+            width: 190px;
+            border-radius: 0.5em;
+        }
+    }
+
+    &_name{
+        font-weight: bold;
+    }
+}
